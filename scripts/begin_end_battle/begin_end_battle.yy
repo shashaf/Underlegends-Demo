@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"begin_end_battle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"begin_end_battle",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

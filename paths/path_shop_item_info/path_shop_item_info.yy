@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"path_shop_item_info",
+  "closed":false,
+  "kind":0,
+  "name":"path_shop_item_info",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":0.0,"y":240.0,},
+    {"speed":100.0,"x":0.0,"y":78.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

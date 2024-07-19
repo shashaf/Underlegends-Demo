@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"empty_attack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"empty_attack",
+  "parent":{
+    "name":"Attacks",
+    "path":"folders/Scripts/Battle/Attacks.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,1 @@
+obj_story.transition = true;

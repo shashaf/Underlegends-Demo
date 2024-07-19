@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"lemike_revolver1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"lemike_revolver1",
+  "parent":{
+    "name":"Lemike",
+    "path":"folders/Scripts/Battle/Attacks/Lemike.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

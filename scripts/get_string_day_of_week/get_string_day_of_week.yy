@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"get_string_day_of_week",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_string_day_of_week",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"spare_enemies",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"spare_enemies",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

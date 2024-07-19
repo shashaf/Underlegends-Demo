@@ -1,0 +1,1 @@
+obj_lemike_cutscene1.sprite_index = spr_lemike_left_talking;

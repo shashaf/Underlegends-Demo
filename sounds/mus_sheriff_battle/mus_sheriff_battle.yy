@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_sheriff_battle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":3,
+  "conversionMode":0,
+  "duration":119.1724,
+  "name":"mus_sheriff_battle",
+  "parent":{
+    "name":"Rejected",
+    "path":"folders/Sounds/Rejected.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_sheriff_battle.wav",
+  "type":0,
+  "volume":1.0,
+}

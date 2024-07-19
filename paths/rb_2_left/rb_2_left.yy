@@ -1,0 +1,19 @@
+{
+  "$GMPath":"",
+  "%Name":"rb_2_left",
+  "closed":false,
+  "kind":1,
+  "name":"rb_2_left",
+  "parent":{
+    "name":"Revolver_bullets",
+    "path":"folders/Paths/Revolver_bullets.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":100.0,"y":44.0,},
+    {"speed":100.0,"x":84.5,"y":28.5,},
+    {"speed":100.0,"x":64.0,"y":25.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_skelehome",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":3,
+  "conversionMode":0,
+  "duration":101.424,
+  "name":"mus_skelehome",
+  "parent":{
+    "name":"Music",
+    "path":"folders/Sounds/Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_skelehome.mp3",
+  "type":0,
+  "volume":1.0,
+}

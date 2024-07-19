@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"weapon_choose",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"weapon_choose",
+  "parent":{
+    "name":"Loading",
+    "path":"folders/Scripts/Loading.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

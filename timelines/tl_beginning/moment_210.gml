@@ -1,0 +1,2 @@
+obj_bravery_cutscene1.sprite_index = spr_bravery_left_talking;
+obj_bravery_cutscene1.object_sprite = spr_bravery_left_talking;

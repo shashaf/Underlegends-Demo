@@ -1,0 +1,1 @@
+obj_froggit_cutscene1.hspeed = -1;

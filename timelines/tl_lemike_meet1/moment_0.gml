@@ -1,0 +1,1 @@
+obj_patience.sprite_index = spr_patience_right;

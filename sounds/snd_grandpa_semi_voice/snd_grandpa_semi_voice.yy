@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_grandpa_semi_voice",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.06458,
+  "name":"snd_grandpa_semi_voice",
+  "parent":{
+    "name":"Voices",
+    "path":"folders/Sounds/Voices.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_grandpa_semi_voice.wav",
+  "type":0,
+  "volume":1.0,
+}

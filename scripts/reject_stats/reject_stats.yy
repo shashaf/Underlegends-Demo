@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"reject_stats",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"reject_stats",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_fallen_down",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":1,
+  "conversionMode":0,
+  "duration":2.769229,
+  "name":"snd_fallen_down",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_fallen_down.wav",
+  "type":0,
+  "volume":1.0,
+}

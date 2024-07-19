@@ -1,0 +1,1 @@
+instance_create_depth(15*2, 85*2, 0, obj_textbox_start);

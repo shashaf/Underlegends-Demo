@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"check_selected_enemy",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_selected_enemy",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

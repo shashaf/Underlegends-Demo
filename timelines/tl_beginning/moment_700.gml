@@ -1,0 +1,1 @@
+instance_create_depth(obj_patience.x - 15, obj_patience.y, obj_patience.depth - 5, obj_soul_cutscene);

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"shift_x_check",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"shift_x_check",
+  "parent":{
+    "name":"Controls",
+    "path":"folders/Scripts/Controls.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

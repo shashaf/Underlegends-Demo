@@ -1,0 +1,25 @@
+{
+  "$GMPath":"",
+  "%Name":"tumbleweed_fly1",
+  "closed":false,
+  "kind":1,
+  "name":"tumbleweed_fly1",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":518.75,"y":353.25,},
+    {"speed":100.0,"x":452.75,"y":325.25,},
+    {"speed":100.0,"x":385.75,"y":350.25,},
+    {"speed":100.0,"x":335.75,"y":371.25,},
+    {"speed":100.0,"x":288.75,"y":351.25,},
+    {"speed":100.0,"x":216.75,"y":327.25,},
+    {"speed":100.0,"x":154.75,"y":352.25,},
+    {"speed":100.0,"x":77.5,"y":371.0,},
+    {"speed":100.0,"x":-50.5,"y":337.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

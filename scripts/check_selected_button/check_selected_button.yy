@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"check_selected_button",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"check_selected_button",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Scripts/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

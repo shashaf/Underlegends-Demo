@@ -1,0 +1,1 @@
+room_goto_dark(rm_ruins_6, 2);

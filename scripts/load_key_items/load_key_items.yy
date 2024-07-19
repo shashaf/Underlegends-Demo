@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"load_key_items",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"load_key_items",
+  "parent":{
+    "name":"Loading",
+    "path":"folders/Scripts/Loading.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

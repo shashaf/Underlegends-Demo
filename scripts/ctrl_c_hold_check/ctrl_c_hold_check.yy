@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ctrl_c_hold_check",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ctrl_c_hold_check",
+  "parent":{
+    "name":"Controls",
+    "path":"folders/Scripts/Controls.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

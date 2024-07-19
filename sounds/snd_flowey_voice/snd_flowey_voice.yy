@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_flowey_voice",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":0.058027,
+  "name":"snd_flowey_voice",
+  "parent":{
+    "name":"Voices",
+    "path":"folders/Sounds/Voices.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_flowey_voice.wav",
+  "type":0,
+  "volume":0.4,
+}

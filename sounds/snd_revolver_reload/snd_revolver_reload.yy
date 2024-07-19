@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_revolver_reload",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":1,
+  "conversionMode":0,
+  "duration":0.8,
+  "name":"snd_revolver_reload",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_revolver_reload.wav",
+  "type":0,
+  "volume":0.9,
+}

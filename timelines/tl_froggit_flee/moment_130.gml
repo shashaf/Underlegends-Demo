@@ -1,0 +1,1 @@
+instance_create_depth(0, 0, obj_patience.depth - 500, obj_lightning);
