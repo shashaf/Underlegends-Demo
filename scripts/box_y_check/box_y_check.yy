@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"box_y_check",
   "isCompatibility":false,
   "isDnD":false,

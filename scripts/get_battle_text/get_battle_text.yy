@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"get_battle_text",
   "isCompatibility":false,
   "isDnD":false,

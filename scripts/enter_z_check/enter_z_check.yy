@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"enter_z_check",
   "isCompatibility":false,
   "isDnD":false,

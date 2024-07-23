@@ -4,13 +4,13 @@ function room_from_index(_roomID) {
 	var _rm_name;
 	switch (_roomID) {
 		case 1:
-			_rm_name = rm_ruins_0_prototype;
-			//_rm_name = rm_ruins_0;
+			//_rm_name = rm_ruins_0_prototype;
+			_rm_name = rm_ruins_0;
 			global.room_label = "Ruins - First";
 			break;
 		case 2:
-			_rm_name = rm_ruins_1_prototype;
-			//_rm_name = rm_ruins_1;
+			//_rm_name = rm_ruins_1_prototype;
+			_rm_name = rm_ruins_1;
 			global.room_label = "Ruins - Second";
 			break;
 		case 3:

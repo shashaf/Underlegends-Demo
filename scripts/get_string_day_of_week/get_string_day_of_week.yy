@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"get_string_day_of_week",
   "isCompatibility":false,
   "isDnD":false,

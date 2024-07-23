@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"ctrl_c_hold_check",
   "isCompatibility":false,
   "isDnD":false,

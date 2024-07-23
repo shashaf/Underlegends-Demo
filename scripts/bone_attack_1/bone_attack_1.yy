@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"bone_attack_1",
   "isCompatibility":false,
   "isDnD":false,

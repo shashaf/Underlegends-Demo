@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"lemike_attack_spawn_one_froggit",
   "isCompatibility":false,
   "isDnD":false,

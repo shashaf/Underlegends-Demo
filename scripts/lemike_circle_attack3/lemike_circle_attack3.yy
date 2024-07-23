@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"lemike_circle_attack3",
   "isCompatibility":false,
   "isDnD":false,

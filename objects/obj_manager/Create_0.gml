@@ -59,8 +59,8 @@ global.player_armor = armor_choose(global.player_armor_index);
 global.item_attack = ini_read_real("PlayerStats", "WeaponATK", 0);
 global.item_defence = ini_read_real("PlayerStats", "ArmorDEF", 1);
 
-global.item_IDs[0] = ini_read_real("Inventory", "Item1", 15);
-global.item_IDs[1] = ini_read_real("Inventory", "Item2", 3);
+global.item_IDs[0] = ini_read_real("Inventory", "Item1", 0);
+global.item_IDs[1] = ini_read_real("Inventory", "Item2", 0);
 global.item_IDs[2] = ini_read_real("Inventory", "Item3", 0);
 global.item_IDs[3] = ini_read_real("Inventory", "Item4", 0);
 global.item_IDs[4] = ini_read_real("Inventory", "Item5", 0);

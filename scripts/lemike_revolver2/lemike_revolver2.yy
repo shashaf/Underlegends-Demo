@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"lemike_revolver2",
   "isCompatibility":false,
   "isDnD":false,

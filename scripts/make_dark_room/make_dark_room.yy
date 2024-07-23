@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"make_dark_room",
   "isCompatibility":false,
   "isDnD":false,

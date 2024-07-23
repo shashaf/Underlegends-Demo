@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"room_from_index",
   "isCompatibility":false,
   "isDnD":false,
