@@ -30,22 +30,8 @@ else {
 		dialogue_end = 0;
 	}
 }
-//dialogue_end = array_length_1d(dialogue)- 1 ;
+
 
 dialogue_length = string_length(dialogue[dialogue_current]);
 
-web_ids[0] = undefined;
-web_ids[1] = undefined;
-web_ids[2] = undefined;
-web_ids[3] = undefined;
-web_ids[4] = undefined;
-web_ids[5] = undefined;
-web_ids[6] = undefined;
-last_web = 6;
-for (var _i = 0; _i < instance_count; _i++;){
-	if instance_id[_i].object_index == obj_web {
-		web_ids[last_web] = instance_id[_i];
-		last_web--;
-	}
-}
-last_web = 6;
+

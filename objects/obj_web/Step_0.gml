@@ -3,9 +3,6 @@ box_y = box_y_check();
 
 if ((enter_z_check()) and (distance_to_object(obj_patience) <= distance_to_player) and obj_patience.in_menu == false) {
 	if in_dialogue == true { //если мы уже в диалоге нажимаем Z/Enter
-		//obj_Patience.can_move = true;
-		//in_dialogue = false;
-		//if next_m == false && ok == false {
 		if next_m == false { //переключение на следующую реплику возможно
 			if characters >= string_length(dialogue[dialogue_current]) 
 				next_m = true;
@@ -33,97 +30,43 @@ if ((enter_z_check()) and (distance_to_object(obj_patience) <= distance_to_playe
 				need_buffer = true;
 			}
 			else { //завершение диалога и выход из него, обнуление всех параметров к исходному варианту
+				if web_checked == false {
+					with (obj_web) {
+						if web_checked == false {
+							if dialogue_current < 6 {
+								self.dialogue_current++;
+								self.dialogue_end++;		
+							}
+							else {
+								self.dialogue_current = 1;
+								self.dialogue_end = 1;
+								global.player_gold += 10;
+							}
+							self.dialogue_length = string_length(self.dialogue[self.dialogue_current]);
+						}
+					}
+					web_checked = true;
+					self.dialogue_current--;
+					self.dialogue_end--;
+					self.dialogue_length = string_length(self.dialogue[self.dialogue_current]);
+				}
 				in_dialogue = false;
 				obj_patience.can_move = true;
 				obj_patience.reading = false;
-				with (obj_tablet_bakery) {
-					for (var _i = 0; _i < 7; _i++) {
-						if web_ids[_i].object_index == obj_web {
-							if web_ids[_i] != other.id  and web_ids[_i].dialogue_end < 6 {
-								web_ids[_i].dialogue_start++;
-								web_ids[_i].dialogue_end++;
-								web_ids[_i].dialogue_current = web_ids[_i].dialogue_start;
-								web_ids[_i].dialogue_length = string_length(web_ids[_i].dialogue[web_ids[_i].dialogue_current]);
-							}
-						}
-						else if web_ids[_i] == other.id {
-							var _temp = web_ids[last_web];
-							web_ids[_i] = _temp;
-							web_ids[last_web] = noone;
-							last_web--;
-						}
-					}
-				}
-				//web_checked = true;
-				/*with (obj_tablet_bakery) {
-					web_ids[last_web] = my_id;
-					last_web++;
-				}
-				if obj_web.dialogue_end < 6 and got_money == false and obj_web.my_id != id {
-					obj_web.dialogue_start++;
-					obj_web.dialogue_end++;		
-				}
-				else {
-					obj_web.dialogue_end = 0;
-					obj_web.dialogue_start = 0;
-					if got_money == false and obj_web.dialogue_end == 6 {
-						global.player_gold+=10;
-						got_money = true;
-					}
-				}
-				
-				var _web_was_checked = false;
-				var _this_web_was_checked = false;
-				for (var _i = 0; _i < instance_count; _i++;){
-					if instance_id[_i] != id and instance_id[_i].object_index == obj_web {
-				        for (var _j = 0; _j < obj_tablet_bakery.last_web + 1; _j++) {
-							if instance_id[_i] == obj_tablet_bakery.web_ids[_j]{
-								_web_was_checked = true;
-							}
-						}
-						if _web_was_checked == false {
-							instance_id[_i].dialogue_start++;
-					        instance_id[_i].dialogue_end++;
-					        instance_id[_i].dialogue_current = instance_id[_i].dialogue_start;
-					        instance_id[_i].dialogue_length = string_length(instance_id[_i].dialogue[instance_id[_i].dialogue_start]);
-						}
-				    }
-				}
-				if dialogue_end >= 7 {
-					global.player_gold+= 10;
-					obj_web.got_money = true;
-				}
-				if obj_web.got_money == true {
-					obj_web.dialogue_end = 0;
-					obj_web.dialogue_start = 0;
-				}
-				 for (var _j = 0; _j < obj_tablet_bakery.last_web + 1; _j++) {
-					if id == obj_tablet_bakery.web_ids[_j] {
-						_this_web_was_checked = true;
-					}
-				 }
-				 if _this_web_was_checked == false {
-					obj_tablet_bakery.web_ids[obj_tablet_bakery.last_web] = id;
-					obj_tablet_bakery.last_web++;
-				}*/
-				
-				//obj_web.dialogue_current = dialogue_start;
 				dialogue_draw = "";
 				increase = default_increase;
 				characters = 0;
 				next_m = false;
-				//ok = false;
 				text = 0;
 				pause = false;
-				//obj_web.dialogue_length = string_length(dialogue[obj_web.dialogue_current]);
 				need_buffer = true;
 			}
 		}
 	}
 	else { //начало диалога
-	in_dialogue = true;
-	obj_patience.can_move = false;
-	obj_patience.reading = true;
+		in_dialogue = true;
+		obj_patience.can_move = false;
+		obj_patience.reading = true;
 	}
 }
 
@@ -201,31 +144,36 @@ if (ctrl_c_hold_check() and in_dialogue == true and next_m = true) { //пере�
 		need_buffer = true;
 	}
 	else { //завершение диалога и выход из него, обнуление всех параметров к исходному варианту
+		if web_checked == false {
+			with (obj_web) {
+				if web_checked == false {
+					if dialogue_current < 6 {
+						self.dialogue_current++;
+						self.dialogue_end++;		
+					}
+					else {
+						self.dialogue_current = 1;
+						self.dialogue_end = 1;
+						global.player_gold += 10;
+					}
+					self.dialogue_length = string_length(self.dialogue[self.dialogue_current]);
+				}
+			}
+			web_checked = true;
+			self.dialogue_current--;
+			self.dialogue_end--;
+			self.dialogue_length = string_length(self.dialogue[self.dialogue_current]);
+		}
 		in_dialogue = false;
 		obj_patience.can_move = true;
 		obj_patience.reading = false;
-		for (var _i = 0; _i < instance_count; _i++;){
-			if instance_id[_i] != id and instance_id[_i].object_index == obj_web {
-		        instance_id[_i].dialogue_start++;
-		        instance_id[_i].dialogue_end++;
-		        instance_id[_i].dialogue_current = dialogue_start;
-		    }
-		}
-		if dialogue_end >= 7 {
-			global.player_gold+= 10;
-			obj_web.got_money = true;
-		}
-		if obj_web.got_money == true {
-			obj_web.dialogue_end = 0;
-			obj_web.dialogue_start = 0;
-		}
 		dialogue_draw = "";
 		increase = default_increase;
 		characters = 0;
 		next_m = false;
 		text = 0;
 		pause = false;
-		dialogue_length = string_length(dialogue[dialogue_current]);
+		//dialogue_length = string_length(dialogue[dialogue_current]);
 		need_buffer = true;
 	}
 }

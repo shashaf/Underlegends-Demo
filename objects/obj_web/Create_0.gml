@@ -14,5 +14,5 @@ dialogue_end = 0;
 got_money = false;
 dialogue_length = string_length(dialogue[dialogue_current]);
 dialogue_start = 0;
-my_id = id;
-//web_checked = false;
+
+web_checked = false;
